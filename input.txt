@@ -1,0 +1,159 @@
+@@include<"main program">
+@@include<"header">
+
+int func->Init ( int Var_a, int Var_b )
+{
+
+}
+
+int main ( )
+{
+	int x;
+	int a = 6 + 5 ;
+	int ab = a;
+	int b = -5,c = b;
+	tout>> ( a );
+	toutn>> ( );
+
+	tout>>(b);
+	toutn>>();
+
+
+	tout>> ( ab );
+	toutn>> ( );
+
+
+	touts>> ( "CSE 2k16" );
+	toutn>> ( );
+	touts>> ( "--------------" );
+	toutn>> ( );
+
+
+
+	!- Single line comment
+
+	$.........
+	....
+	........ multiline comment
+	....
+	..........$
+	
+
+	!- new input
+	!- gcd and lcm
+
+	b = 60 gcd 25 ;
+	tout>> ( b ) ;
+	toutn>>();
+	c = 60 lcm 25 ;
+	tout>> ( c ) ;
+	toutn>>();
+	toutn>>();
+
+	!- manual function
+
+	toutf>> sin(90) ;
+	toutf>> cos(45) ;
+	toutf>> tan(45) ;
+	toutf>> log10(2) ;
+	toutf>> log(2) ;
+	toutn>>();
+
+	!- Mod function
+	a = 5 % 3 ;
+	tout>> (a) ;
+	toutn>>();
+
+	!-power function
+	int p = 5 pow 3 ;
+	tout>> ( p ) ;
+	toutn>>();
+
+	!-Factorial function
+	toutf>> FACT(5);
+
+    
+	!-max and min of two numbers
+	toutf>> MAX ( 100 CMP 21 ) ;
+	
+	toutf>> MIN ( 400 CMPR 23 ) ;
+	toutn>> ();
+	
+	
+	!-reverse and sort a string
+	toutf>> REV ( "Khulna" ) ;
+	toutn>> ( );
+	toutf>> SORT ( "zwabgdertef" ) ;
+	toutn>> ( );
+	
+    !- Addition
+	a = 25 + 53 ;  
+	touts>> ( "Addition of 25 + 53: " );
+	tout>> ( a );
+	toutn>> ( );
+
+    !- Substraction
+	int sub = 10 - 3 ;
+	touts>> ( "Substraction of 10 - 3: " );
+	tout>> ( sub ) ;
+	toutn>> ( );
+	
+	!-Multiplication
+	int mul = 5 * 7 ;
+	touts>> ( "Multiplication of 5 * 7: " ) ;
+	tout>> ( mul ) ;
+	toutn>> ( ) ;
+	
+	
+	!-Division
+	int div = 300 / 15 ;
+	touts>> ( "division of 300 / 15: " ) ;
+	tout>> ( div ) ;
+	toutn>> ( ) ;
+
+	!-end new input
+
+
+	if ( 5 > 4 )
+	{
+		touts>> ( "if Executed" ) ;
+	}
+	elseif ( 5 < 4 )
+	{
+		touts>> ( "else if executed" ) ;
+	}
+	else{
+		touts>>("else executed");
+	}
+	toutn>>();
+
+	int start = 1 + 0;
+	int end = 6;
+
+	for ( start ... end : 2 )
+	{
+		touts>>( "hi " );
+	}
+	toutn>>();
+	
+	int stw = 2;
+
+	switch ( stw )
+	{
+		1:
+			{
+
+			}
+		7:
+			{
+				touts>>("switch variable 7");
+			}
+
+
+		default:  {
+
+			}
+	}
+
+
+}

@@ -1,0 +1,34 @@
+User DEfine Function Declared
+11
+-5
+11
+CSE 2k16
+--------------
+5
+300
+
+1.000000
+0.707105
+1.000004
+0.301030
+0.693147
+
+2
+125
+120
+100
+23
+
+anluhK
+abdeefgrtwz
+Addition of 25 + 53: 78
+Substraction of 10 - 3: 7
+Multiplication of 5 * 7: 35
+division of 300 / 15: 20
+if Executed
+hi hi 
+switch variable 7
+
+
+****Compilation Successful****
+
